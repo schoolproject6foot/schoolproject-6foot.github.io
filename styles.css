@@ -60,11 +60,17 @@
             color: #008000;
         }
 
-        .quienes-somos, .a-que-nos-dedicamos, .nuestros-proyectos {
+        .quienes-somos {
             display: none;
-        }
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }   
+        
+        .a-que-nos-dedicamos, .nuestros-proyectos {
+            display: none;
+        }   
 
         .visible {
             display: block;
         }
-    
+        
