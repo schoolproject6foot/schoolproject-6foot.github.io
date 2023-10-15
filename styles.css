@@ -7,18 +7,23 @@
 
         header {
             text-align: center;
-            padding: 20px;
+            padding: 10px;
             background-color: #008000;
         }
 
         header h1 {
             color: #FFFF99; /* желтый цвет */
-            font-size: 3em; /* увеличиваем размер шрифта */
+            font-size: 5em; /* увеличиваем размер шрифта */
+            margin-right: 200px;
         }
 
         header img {
-            height: 50px; /* высота изображения */
-            margin-right: 10px; /* отступ справа */
+            height: 150px; /* высота изображения */
+            margin-right: 50px; /* отступ справа */
+            margin-left: 50px;
+            margin-bottom: 200px;
+            margin-top: -20px;
+            float: left;
         }
 
         nav {
