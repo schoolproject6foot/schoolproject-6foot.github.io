@@ -73,4 +73,18 @@
         .visible {
             display: block;
         }
-        
+    
+        .compen {
+            margin-top: 10px; 
+            margin: 0 20px; 
+            width: 600px;
+            margin-left: 2px;
+            height: 100px;
+        }
+        .ocompen {
+            margin-top: 10px; 
+            margin: 0 20px; 
+            width: 600px;
+            margin-left: 2px;
+            height: 600px;
+        }
