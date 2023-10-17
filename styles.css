@@ -1,24 +1,20 @@
 
-        body {
-            background-color: #FFFF99; /* желтый цвет */
-            color: #008000; /* зеленый цвет */
-            font-family: Arial, sans-serif;
-        }
+body {
+    background-color: #F3F3F3; /* Cambiado a un color gris claro */
+    color: #333; /* Cambiado a un color gris oscuro para un contraste suave */
+    font-family: 'Helvetica Neue', sans-serif; /* Cambiado a Helvetica Neue para un aspecto más moderno */
+}
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #008000; }
 
-        header {
-            text-align: center;
-            padding: 10px;
-            background-color: #008000;
-        }
-
-        header h1 {
-            color: #FFFF99; /* желтый цвет */
-            font-size: 5em; /* увеличиваем размер шрифта */
-            margin-right: 200px;
-        }
-
+    header h1 {
+        color: #FFFFFF; /* Cambiado a blanco para un contraste más alto */
+        font-size: 2.5em; /* Reducido para un aspecto más limpio */
+    }
         header img {
-            height: 150px; /* высота изображения */
+            height: 90px; /* высота изображения */
             margin-right: 50px; /* отступ справа */
             margin-left: 50px;
             margin-bottom: 200px;
@@ -28,7 +24,7 @@
 
         nav {
             background-color: #008000;
-            color: #FFFF99;
+            color: #FFFFFF; /* Cambiado a blanco para un contraste más alto */
             text-align: center;
         }
 
@@ -55,20 +51,15 @@
             margin: 0 auto;
             padding: 20px;
         }
-
         h1, h2, h3 {
             color: #008000;
         }
 
-        .quienes-somos {
+        .quienes-somos, .a-que-nos-dedicamos, .nuestros-proyectos {
             display: none;
             margin-top: 20px;
             margin-bottom: 20px;
-        }   
-        
-        .a-que-nos-dedicamos, .nuestros-proyectos {
-            display: none;
-        }   
+        }
 
         .visible {
             display: block;
@@ -87,4 +78,17 @@
             width: 600px;
             margin-left: 2px;
             height: 600px;
+        }
+         
+        .esca {
+            width: 800px;
+        }
+
+        .logos {
+          margin-top: 25px;
+          width: 20px;
+          display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
